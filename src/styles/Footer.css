@@ -1,0 +1,74 @@
+.footer {
+  width: 100%;
+  background-color: #121619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 20px; /* Adjust the padding as needed */
+  color: white;
+}
+
+.footer p {
+  color: white;
+}
+
+.contact {
+  display: flex;
+  width: 80%;
+  
+}
+
+.leftSide {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.rightSide {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #121619;
+  border-radius: 10px;
+}
+
+.rightSide h1 {
+  margin-bottom: 20px;
+}
+
+.rightSide form {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightSide form label {
+  margin-bottom: 20px;
+}
+
+.rightSide form input,
+.rightSide form textarea {
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.rightSide form button {
+  padding: 10px;
+  background-color: #121619;
+  color: white;
+  border: none;
+  border-radius: 0%;
+  cursor: pointer;
+}
+
+.rightSide form button:hover {
+  background-color: #2c78c4;
+}
+
+
+
+
+  
