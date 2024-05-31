@@ -49,7 +49,7 @@
     height: auto;
     width: auto;
     border: none;
-    border-bottom: 40px solid #121619;
+    border-bottom: 0px solid #121619;
     color: black;
   }
   input::placeholder,
