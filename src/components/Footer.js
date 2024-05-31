@@ -19,7 +19,7 @@ function Footer() {
             <label htmlFor='email'>Email</label>
             <input name='email' placeholder='Enter email...' type='email' />
             <label htmlFor='message'>Message</label>
-            <input name='email' placeholder='Enter message...' type='email' />
+            <input name='text' placeholder='Enter message...' type='text' />
             <button type='submit'>Send Message</button>
           </form>
         </div>
